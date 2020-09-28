@@ -1,4 +1,6 @@
+upyter contrib nbextension install --user
+jupyter nbextension enable equation-numbering/main
+
 jupyter serverextension enable --py nbgitpuller
 
-julia -e 'using WebIO; WebIO.install_jupyter_nbextension();' 
-julia -e 'using SymPy; using DifferentialEquations; using Plots; using Interact;'
+julia -e 'using WebIO; WebIO.install_jupyter_nbextension();'
