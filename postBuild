@@ -1,4 +1,4 @@
-jupyter serverextension enable --py nbgitpuller --sys-prefix
+jupyter serverextension enable --py nbgitpuller
 
 julia -e 'using WebIO; WebIO.install_jupyter_nbextension();' 
 julia -e 'using SymPy; using DifferentialEquations; using Plots; using Interact;'
