@@ -1,6 +1,6 @@
-jupyter contrib nbextension install --user
+jupyter contrib nbextension install --sys-prefix
 jupyter nbextension enable equation-numbering/main
 
-jupyter serverextension enable --py nbgitpuller
+jupyter serverextension enable --py nbgitpuller --sys-prefix
 
 julia -e 'using WebIO; WebIO.install_jupyter_nbextension();'
