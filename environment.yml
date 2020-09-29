@@ -1,0 +1,14 @@
+name: base
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - conda
+  - python=3.8
+  - menuinst
+  - console_shortcut
+  - powershell_shortcut
+  - numpy
+  - sympy
+  - nbgitpuller
+  - jupyter_contrib_nbextensions
