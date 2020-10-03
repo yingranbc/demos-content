@@ -1,4 +1,4 @@
-source /srv/conda/bin/activate kernel
+source /srv/conda/bin/activate notebook
 exec "$@"
 
 jupyter contrib nbextension install --sys-prefix
