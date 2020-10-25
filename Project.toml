@@ -4,6 +4,7 @@ authors = ["ranyi "]
 version = "0.1.0"
 
 [deps]
+Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Interact = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
 LambertW = "984bce1d-4616-540c-a9ee-88d1112d94c9"
